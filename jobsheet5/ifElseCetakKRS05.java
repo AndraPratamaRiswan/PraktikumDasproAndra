@@ -8,6 +8,7 @@ public class ifElseCetakKRS05{
         System.out.print("Masukan semester saat ini: ");
         int semester = sc.nextInt();
 
+        
         if(semester == 1) {
             System.out.println("KRS Semester 1 ditampilkan");
         }else if(semester == 2) {
