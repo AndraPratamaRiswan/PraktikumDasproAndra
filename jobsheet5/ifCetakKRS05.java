@@ -10,6 +10,7 @@ public class ifCetakKRS05 {
         System.out.print("Apakah UKT sudah lunas? (true/false): ");
         boolean uktLunas = sc.nextBoolean();
 
+
         String pesan = (uktLunas) 
             ? "Pembayaran UKT terverifikasi\nSilahkan cetak KRS dan minta tanda tangan DPA" 
             : "Registrasi ditolak, Silakan lunasi UKT terlebih dahulu";
